@@ -1,0 +1,44 @@
+HTML -  HTML is the standard markup language for creating web pages
+	It describes the structure of web pages
+	HTML tells the browser how to display the content
+	HTML elements label pieces of content such as this is a heading this is a paragraph this is a link etc
+
+CSS -   cascading style sheets
+	It is the language we use to style a web page
+	css describes how HTML elements are to be displayed on screen,paper,or in other media
+	css saves a lot of work.It can control the layout of multiple web pages all at once
+	External style sheets are stored in css files
+
+Package.json - It records imp metadata about a project which is required before publishing to NPM
+		package.jason file can be created in 2 ways
+		1.using npm init
+		2.writing directly to file
+
+spec file -     Spec files are plain text files that are used to construct spec strings
+		defines all the actions the rpm build command should take to build the application
+
+CLI -	CLI is a text based interface used for entering commands
+	Through the cli users interact with a system or application by typing in commands
+	The command is typed on a specific line followinf a visual prompt from the computer
+
+Files used in angular app
+
+src folder - This is the folder which contains the main code files related to your angular application
+App folder - The app folder contains the files you have created for app components 
+app.component.html - This file contains the html file related to app component
+		     This is the template file which is used by angular to do the data binding
+app.component.css - This file contains the css code for your app component
+app.component.spec.ts - This file is a unit testing file related to app component.
+			This file is used along with other unit tests.
+			It is run from angular cli by the command ng test.
+app component.ts - This is the most imp typescript file which includes the view logic behind the component
+app.module.ts - This is also a typescript file which includes all the dependencies for the website
+		This file is used to define the needed modules to be imported the components to be declared and the main component to be bootstrapped
+gitignore - This file is related to the source control git
+
+Component - components are the main building block for angular applications.each component consists of 
+	    A typescript cls that defines behavior
+	    An html template that declares what renders on the page
+	    A css selector that defines how the component is used in a template
+
+
