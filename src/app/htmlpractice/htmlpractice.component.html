@@ -31,20 +31,29 @@
     <li class="anila">anila</li>
 </ul>
 HTML FORMS
-collect user input and sent to a server for processing
-Form element - used to create an html form for user input
-Input element
+html forms are required to collect data from the user
+form tag is used to create html forms
 <!DOCTYPE html>
 <html>
     <body>
-        <h1>input element</h1>
-        <form action="/action_page.php">
-            <label for="fname">first name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <input type="submit" value="submit">
+        <form>
+            firstname<input type="text" name="firstname"/><br>
+            lastname<input type="text" name="lastname"/><br>
+            <input type="submit">
+        </form>
+        <form>
+            <h3>radio buttons</h3>
+            <input type="radio" id="endeavour" name="fav car"/>
+            <label for="endeavour">ENDEAVOUR</label><br>
+            <input type="radio" id="bmw" name="fav car"/>
+            <label for="bmw">BMW</label><br>
+        </form>
+        <form>
+            <h3>check boxes</h3>
+            <input type="checkbox" id="anilaaribandi" name="my name"/>
+            <label for="anilaaribandi">anilaaribandi</label>
+            <input type="checkbox" id="anila aribandi" name="my name"/>
+            <label for="anila aribandi">anila aribandi</label>
         </form>
     </body>
 </html>
-action_page.php contains a server side script that handles the form data
-action attribute defines the action to be performed when the form is submitted
-target attribute defines where to display the response received after submitting the form
