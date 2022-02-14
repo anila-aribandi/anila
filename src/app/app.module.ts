@@ -12,7 +12,7 @@ import { AnotherpracticeComponent } from './anotherpractice/anotherpractice.comp
     AppComponent,
     HtmlpracticeComponent,
     PracticeComponent,
-    AnotherpracticeComponent
+    AnotherpracticeComponent,
   ],
   imports: [
     BrowserModule,

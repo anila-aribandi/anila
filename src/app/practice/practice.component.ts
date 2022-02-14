@@ -28,8 +28,8 @@ export class PracticeComponent implements OnInit {
   console.log(this.object);
   console.log(this.array);
   console.log(this.arrayOfObjects);
-   }
-
+  }
+   
   ngOnInit(): void {
   }
 
