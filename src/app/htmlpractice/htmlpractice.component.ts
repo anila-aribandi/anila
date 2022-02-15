@@ -7,10 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HtmlpracticeComponent implements OnInit {
   myName: string = 'anila';
-  myAge: number = 22;
-  height: string = '5.3'
-  boolean: boolean = true;
-  object: {} = {key:'number'};
+  myAge: number = 22;        
+  height: string = '5.3'     
+  boolean: boolean = true; 
+  object: {} = {key:'number'};   
   array: string[] = ['number 1' , 'number 2'];
   arrayOfObjects = [{key:'number 1'}, {key:'number 2'}];
 

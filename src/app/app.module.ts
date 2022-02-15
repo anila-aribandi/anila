@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HtmlpracticeComponent } from './htmlpractice/htmlpractice.component';
 import { PracticeComponent } from './practice/practice.component';
 import { AnotherpracticeComponent } from './anotherpractice/anotherpractice.component';
+import { NewComponent } from './new/new.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { AnotherpracticeComponent } from './anotherpractice/anotherpractice.comp
     HtmlpracticeComponent,
     PracticeComponent,
     AnotherpracticeComponent,
+    NewComponent,
   ],
   imports: [
     BrowserModule,
