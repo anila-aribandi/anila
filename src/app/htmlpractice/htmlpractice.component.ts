@@ -28,5 +28,10 @@ export class HtmlpracticeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-}
+  function(){
+  let myName:string  = 'Anila';
+  let myAge:number = 22;
+  let height:string= '5.3';
+  }
+    
+  }
