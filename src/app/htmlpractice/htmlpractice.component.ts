@@ -32,6 +32,9 @@ export class HtmlpracticeComponent implements OnInit {
   let myName:string  = 'Anila';
   let myAge:number = 22;
   let height:string= '5.3';
+  console.log(myName);
+  console.log(myAge);
+  console.log(height);
   }
     
   }
