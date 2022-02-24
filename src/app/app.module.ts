@@ -8,6 +8,8 @@ import { PracticeComponent } from './practice/practice.component';
 import { AnotherpracticeComponent } from './anotherpractice/anotherpractice.component';
 import { NewComponent } from './new/new.component';
 import { AnotherComponent } from './another/another.component';
+import { NewangularComponent } from './newangular/newangular.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,10 +19,12 @@ import { AnotherComponent } from './another/another.component';
     AnotherpracticeComponent,
     NewComponent,
     AnotherComponent,
+    NewangularComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

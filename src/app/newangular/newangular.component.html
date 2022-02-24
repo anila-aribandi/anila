@@ -1,0 +1,15 @@
+<p>newangular works!</p>
+
+<p>This is {{name}}</p>
+
+<input type="button" value="propertybinding"><br><br>
+<input id="{{myid}}" type="button" value="propertybinding"> 
+//property binding using interpolation<br><br>
+<input [disabled]="isdisabled" id="{{myid}}" type="button" value="propertybinding"><br><br>
+
+<button (click)="onclick()" type="button"> click </button><br>
+<h1> {{binding}} </h1><br><br><br>
+
+<input [(ngModel)] = data type="text">
+<button type="button"> click me </button>   <br><br>
+{{data}}
