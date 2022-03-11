@@ -70,3 +70,10 @@ export class HtmlpracticeComponent implements OnInit {
   }
     
   }
+
+  function listOfCars(carNumber: number) {
+    
+  }
+function car(carName: string, carNumber: number,shippingAvailable: boolean){
+
+}
