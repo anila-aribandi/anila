@@ -15,6 +15,14 @@ export class HtmlpracticeComponent implements OnInit {
   array: string[] = ['number 1' , 'number 2'];
   arrayOfObjects = [{key:'number 1'}, {key:'number 2'}];
 
+  title: string = 'Sisters Names';
+  firstNames: string[] = ['Anila', 'Nikhila', 'Srinidhi'];
+  lastNames: string[] = ['Aribandi', 'Sunkara', 'Nagandla'];
+  age: number[] = [22, 30, 15];
+  relation: string = 'sisters';
+
+
+
   studentName: string = 'anila';
   studentId: number = 4;
   studentEmailId: string = 'anila@gmail.com';
@@ -56,6 +64,10 @@ export class HtmlpracticeComponent implements OnInit {
     console.log(this.object);
     console.log(this.array);
     console.log(this.arrayOfObjects);
+
+    console.log(this.title);
+    console.log(this.firstNames);
+    console.log(this.relation);
    }
 
   ngOnInit(): void {
@@ -68,6 +80,7 @@ export class HtmlpracticeComponent implements OnInit {
   console.log(myAge);
   console.log(height);
   }
+
     
   }
 
