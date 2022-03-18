@@ -52,8 +52,8 @@ export class HtmlpracticeComponent implements OnInit {
   //car.carPrice - 1000000
   //car.states - ['TS', 'AP']
   //car.states[0] - TS
-  
 
+  
 
 
   constructor() {
