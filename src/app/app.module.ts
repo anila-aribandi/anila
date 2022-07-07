@@ -10,6 +10,11 @@ import { NewComponent } from './new/new.component';
 import { AnotherComponent } from './another/another.component';
 import { NewangularComponent } from './newangular/newangular.component';
 import { FormsModule } from '@angular/forms';
+import { HeaderComponent } from './header/header.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { CompanyDetailsComponent } from './company-details/company-details.component';
+import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
+import { VisaDetailsComponent } from './visa-details/visa-details.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +25,11 @@ import { FormsModule } from '@angular/forms';
     NewComponent,
     AnotherComponent,
     NewangularComponent,
+    HeaderComponent,
+    NavigationComponent,
+    CompanyDetailsComponent,
+    EmployeeDetailsComponent,
+    VisaDetailsComponent,
   ],
   imports: [
     BrowserModule,

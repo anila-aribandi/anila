@@ -16,7 +16,7 @@ export class AnotherpracticeComponent implements OnInit {
   thisIsArray = ['value 1', 'value 2'];
   thisIsArrayOfObjects = [{key:'value 1'}, {key:'value 2'}, {key:'value 3'}]
 
-
+  
   constructor() { }
 
   ngOnInit(): void {
